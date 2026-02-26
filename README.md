@@ -2,6 +2,8 @@
 
 **Add rug pull detection to any [Coinbase AgentKit](https://github.com/coinbase/agentkit) trading agent.**
 
+[![Coinbase x402 Ecosystem](https://img.shields.io/badge/Coinbase_x402-listed-blue?logo=coinbase)](https://github.com/coinbase/x402/blob/main/services/rug-munch-intelligence/metadata.json)
+
 > Your agent checks every token for scams before trading. Costs $0.04 per check.
 
 ## Install
