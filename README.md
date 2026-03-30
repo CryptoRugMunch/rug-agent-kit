@@ -1,4 +1,4 @@
-# Rug Munch Intelligence — AgentKit Plugin 🛡️
+# Marcus Rug Intel — AgentKit Plugin 🛡️
 
 **Add rug pull detection to any [Coinbase AgentKit](https://github.com/coinbase/agentkit) trading agent.**
 
@@ -78,7 +78,7 @@ Your LLM Agent
     ↓ "Should I buy token X?"
 AgentKit calls check_token_risk
     ↓
-Rug Munch API returns:
+Marcus Rug Intel API returns:
     risk_score: 85, recommendation: "AVOID"
     ↓
 Agent: "This token has freeze authority and the deployer
@@ -91,10 +91,10 @@ The agent automatically uses `check_token_risk` before executing trades when the
 
 ```bash
 # Required: API key for authenticated access (or use x402 auto-payment)
-export RUG_MUNCH_API_KEY="your-api-key"
+export MRI_API_KEY="your-api-key"
 
 # Optional: Override API URL
-export RUG_MUNCH_API_BASE="https://cryptorugmunch.app/api/agent/v1"
+export MRI_API_BASE="https://cryptorugmunch.app/api/agent/v1"
 ```
 
 ### x402 Payment (No API Key Needed)
@@ -122,11 +122,13 @@ response = agent.invoke({
 
 ## Links
 
-- [Rug Munch Intelligence](https://cryptorugmunch.app)
+- [Marcus Rug Intel](https://cryptorugmunch.app)
 - [API Status & Pricing](https://cryptorugmunch.app/api/agent/v1/status)
 - [x402 Trading Agent Example](https://github.com/CryptoRugMunch/x402-trading-agent)
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit)
 - [x402 Protocol](https://x402.org)
+
+> **⚠️ Note:** This project was formerly known as CryptoRugMunch. The $CRM token is **not affiliated** with Marcus Rug Intel.
 
 ## License
 
